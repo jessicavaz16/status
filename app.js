@@ -28,7 +28,7 @@ const stories = [
     profile: 'images/profile-pic4.jpg',
     description: '',
     image: 'images/happy.jpg',
-    time: 7500
+    time: 2500
   }
 ]
 
