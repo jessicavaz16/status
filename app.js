@@ -3,7 +3,7 @@ const stories = [
     title: 'Jessica',
     gmttime:'10:59pm',
     profile: 'images/profile-pic.jpg',
-    description: 'Happy Birthday Ananya🥳😘!Stay Blessed💖',
+    description: 'Happy Birthday Ananya!🥳😘 Stay Blessed💖',
     image: 'images/birthday2.jpg',
     time: 3500
   },
