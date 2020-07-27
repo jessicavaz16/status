@@ -79,7 +79,7 @@ function Storyfier(storiesArray, rootEl) {
     this.root.style.backgroundRepeat = "no-repeat";
     this.root.style.backgroundPosition = "center center";
     this.root.style.backgroundColor="black";
-    this.root.querySelector('#content').style.backgroundColor="rgba(20, 18, 18, 0.1)"
+    this.root.querySelector('#content').style.backgroundColor="#111"
   }
 
 
@@ -90,7 +90,7 @@ function Storyfier(storiesArray, rootEl) {
       this.root.style.backgroundRepeat = "no-repeat";
       this.root.style.backgroundPosition = "center center";
       this.root.style.backgroundColor="black";
-      this.root.querySelector('#content').style.backgroundColor="rgba(20, 18, 18, 0.1)"
+      this.root.querySelector('#content').style.backgroundColor="#111"
     }
 
     if(this.stories[this.currentIndex]==this.stories[2]){
@@ -108,7 +108,7 @@ function Storyfier(storiesArray, rootEl) {
       this.root.style.backgroundRepeat = "no-repeat";
       this.root.style.backgroundPosition = "center center";
       this.root.style.backgroundColor="black";
-      this.root.querySelector('#content').style.backgroundColor="rgba(20, 18, 18, 0.1)"
+      this.root.querySelector('#content').style.backgroundColor="#111"
     }
     this.root.querySelector('#gmt-time').innerHTML = story.gmttime
     this.root.querySelector('#profile-pic').src=story.profile
