@@ -75,7 +75,7 @@ function Storyfier(storiesArray, rootEl) {
     if(this.stories[this.currentIndex]==this.stories[0])
     {
     
-    this.root.style.backgroundSize = "500px 500px";
+    this.root.style.backgroundSize = "500px 600px";
     this.root.style.backgroundRepeat = "no-repeat";
     this.root.style.backgroundPosition = "center center";
     this.root.style.backgroundColor="black";
