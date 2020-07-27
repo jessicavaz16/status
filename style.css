@@ -165,3 +165,8 @@ h5 {
   height: 100%;
   width: 50%;
 }
+@media only screen and (max-width: 850px) {
+  .container {
+    height: 100%;
+  }
+}
