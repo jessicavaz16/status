@@ -1,6 +1,6 @@
 const stories = [
   {
-    title: 'Jessica Vaz',
+    title: 'Jessica',
     gmttime:'10:59pm',
     profile: 'images/profile-pic.jpg',
     description: 'Happy Birthday Ananya🥳😘!Stay Blessed💖',
@@ -8,7 +8,7 @@ const stories = [
     time: 3500
   },
   {
-    title: 'Meghana',
+    title: 'Deepika',
     gmttime:'08:30pm',
     profile: 'images/profile-pic2.jpg',
     description: 'Besties forever😘',
