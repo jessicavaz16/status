@@ -1,0 +1,153 @@
+body {
+  font-family: sans-serif;
+  
+}
+
+h5 {
+  font-weight: normal;
+  font-size: 1rem;
+  margin: 0;
+  color: #fff;
+  padding-top: 15px;
+}
+
+.container {
+  position: relative;
+  width: 500px;
+  height: 750px;
+  margin:auto;
+  background: #fafafa;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chat-header {
+  display: flex;
+  cursor: pointer;
+  
+  padding-bottom: 800px;
+}
+.profile {
+  width: 100%;
+  background-image: linear-gradient(-180deg, rgba(255,255,255,0.00) 0%);
+  display: flex;
+  align-items: center;
+  height: 55px;
+  position: relative;
+}
+.profile .profile-pic {
+  width: 35px;
+  display: inline-block;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  margin-left: 42px;
+  margin-right: 10px;
+}
+.profile .arrow {
+  display: inline-block;
+  width: 20px;
+  position: absolute;
+  top: 17px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.profile-heading{
+  display: inline-block;
+  line-height: 50px;
+  vertical-align: bottom;
+  padding-bottom: 5px;
+  color: #fff;
+}
+.profile-heading h2 {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -1px;
+  padding-bottom: 5px;
+}
+.profile-heading p{
+  position: absolute;
+  font-size: 11px;
+  color: #fafafa;
+  margin-top: 0;
+  top: 18px;
+}
+.right .icon {
+  display: inline-block;
+  width: 25px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.profile .left {
+  flex: 1;
+}
+.time {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.time-item {
+  flex: 1 1 auto;
+  border-radius: 5px;
+  margin-right: 5px;
+  height: 2px;
+  background-color: rgba(236, 221, 221, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.time-item:last-child {
+  margin-right: 0;
+}
+
+.time-item > div {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background-color:whitesmoke;
+}
+
+#content {
+  position: absolute;
+  width: inherit;
+  height: 100px;
+  background-image: linear-gradient(-180deg, rgba(255,255,255,0.00) 0%, rgba(0,0,0,0.15) 100%);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  top: 650px;
+}
+
+
+.down-arrow{
+  width: 20px;
+}
+
+#reply{
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+#reply p{
+  color: #fff;
+  margin-top: 0;
+  font-size: 14px;
+}
+
+#back, #next {
+  position: absolute;
+  top: 0;
+}
+
+#back {
+  left: 0;
+  height: 100%;
+  width: 50%;
+}
+
+#next {
+  left: 50%;
+  height: 100%;
+  width: 50%;
+}
