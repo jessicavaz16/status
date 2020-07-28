@@ -30,7 +30,7 @@ h5 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 110vh;
+  height: 100vh;
   box-shadow: 0 1px 3px -1px rgba(0.25, 0.25, 0.25, 0.25);
 }
 
