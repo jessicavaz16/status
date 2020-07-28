@@ -20,8 +20,9 @@ h5 {
 }
 
 .wrap-container{
-  width: 500px;
+  width: 520px;
   margin: auto;
+  position: relative;
 }
 
 .container {
